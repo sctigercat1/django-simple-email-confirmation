@@ -1,11 +1,2 @@
-__version__ = '0.12'
-__all__ = [
-    'email_confirmed',
-    'unconfirmed_email_created',
-    'primary_email_changed',
-]
-
-
-from .signals import (
-    email_confirmed, unconfirmed_email_created, primary_email_changed,
-)
+__version__ = '0.13'
+default_app_config = 'simple_email_confirmation.apps.Config'
