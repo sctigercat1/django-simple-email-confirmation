@@ -1,7 +1,7 @@
 from django.apps import AppConfig
 
 class Config(AppConfig):
-    name = "simple_email_confirmation.apps"
+    name = "simple_email_confirmation"
     verbose_name = "Simple Email Confirmation"
 
     def ready(self):
